@@ -26,3 +26,8 @@ html {
     font-size: 20pt;
 
 }
+.cardHolder{
+display: flex;
+justify-content: space-around;
+margin: 10px;
+}
