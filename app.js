@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
 //This is an example to visit another page (the about page)
 app.get('/about', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/about.html'));
-    app.use(express.static(path.join(__dirname,'/public')));
+    
 
 });
 app.get('/contact', (req, res) => {

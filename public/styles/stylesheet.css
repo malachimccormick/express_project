@@ -1,6 +1,6 @@
 body,
 html {
-    background-color: whitesmoke;
+    background-color: rgb(235, 235, 235);
     height: 100%;
 }
 
@@ -10,7 +10,11 @@ html {
     font-family: pt sans narrow;
     text-shadow: rgb(58, 57, 57) 0.3em 0.3em 0.3em;
     margin-bottom: 0px;
-    height: 43%;
+    height: 35%;
+}
+.navbar{
+    
+    height: 5%;
 }
 
 .display-4 {
